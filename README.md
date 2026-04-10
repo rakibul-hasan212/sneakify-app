@@ -1,16 +1,23 @@
 # e_commerce_app
 
-A new Flutter project.
+It's a E-commerce Shoes Store app. Since the work not done yet. Just Design the UI day by day. Hopefully complete the whole project in hurry!
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+# What is Done Right Now 
 
-A few resources to get you started if this is your first Flutter project:
+* Design the Splash Screen
+* Home page UI
+* Product Description Page UI
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+# What is Next
+* Create Cart Page
+* Payment Page
+* Order History Page
+* Order Tracking
+* Many more to thinking
+
+
+
