@@ -119,10 +119,13 @@ class ProductDescreptionPage extends StatelessWidget{
               MyText.titleMediumText("Description",fontWeightValue: FontWeight.w800,),
               SizedBox(height: 40,),
               Spacer(),
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                children: [
-                  Container(
+              //Add to cart button create
+              GestureDetector(
+                onTap: (){
+                  ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text("Apply the functionality Later for go to Cart Page")));
+                },
+                child: Center(
+                  child: Container(
                     height: 60,
                     width: 130,
                     decoration: BoxDecoration(
@@ -131,16 +134,7 @@ class ProductDescreptionPage extends StatelessWidget{
                     ),
                     child: Center(child: MyText.buttonText("Add to Cart",size: 20,)),
                   ),
-                  Container(
-                    height: 60,
-                    width: 130,
-                    decoration: BoxDecoration(
-                        color: Colors.orange,
-                        borderRadius: BorderRadius.circular(16)
-                    ),
-                    child: Center(child: MyText.buttonText("Next",size: 20,)),
-                  )
-                ],
+                ),
               )
             ],
           ),
