@@ -2,10 +2,9 @@ import 'package:e_commerce_app/pages/home/popular_item.dart';
 import 'package:e_commerce_app/pages/home/search_with_icon_design.dart';
 import 'package:e_commerce_app/pages/home/top_catagories.dart';
 import 'package:flutter/material.dart';
-
-import '../../widgets/bottomNavigation/bottom_navigation_bar.dart';
 import '../../widgets/customWidgets/MyText.dart';
 import '../../widgets/customWidgets/header_design.dart';
+import '../bottomNavigation/bottom_navigation_bar.dart';
 import 'banner_design.dart';
 
 class HomePage extends StatelessWidget{
